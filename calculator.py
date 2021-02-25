@@ -17,6 +17,14 @@ while True:
         print(multiply(int(operation_list[1]), int(operation_list[2])))
     elif operation_list[0] == "/":
         print(divide(int(operation_list[1]), int(operation_list[2])))
+    elif operation_list[0] == "square":
+        print(square(int(operation_list[1])))
+    elif operation_list[0] == "cube":
+        print(cube(int(operation_list[1])))
+    elif operation_list[0] == "power":
+        print(power(int(operation_list[1]), int(operation_list[2])))
+    elif operation_list[0] == "mod":
+        print(mod(int(operation_list[1]), int(operation_list[2])))
     
 
 
